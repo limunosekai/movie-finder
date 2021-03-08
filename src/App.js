@@ -7,10 +7,10 @@ import Movie from './components/movie/SingleMovie';
 function App() {
   return (
     <Switch>
-      <Route path='/movie-finder' exact>
+      <Route path='/' exact>
         <Home />
       </Route>
-      <Route path='/movie-finder/movies/:id' children={<Movie />} />
+      <Route path='/movies/:id' children={<Movie />} />
     </Switch>
   );
 }
