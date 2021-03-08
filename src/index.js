@@ -9,7 +9,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 ReactDOM.render(
   <React.StrictMode>
     <AppProvider>
-      <Router>
+      <Router basename='/movie-finder/'>
         <App />
       </Router>
     </AppProvider>
