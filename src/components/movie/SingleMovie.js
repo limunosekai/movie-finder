@@ -32,7 +32,7 @@ const SingleMovie = () => {
     return (
       <div className='page-error'>
         <h1>{error.msg}</h1>
-        <Link to='/' className='btn'>
+        <Link to='/movie-finder' className='btn'>
           돌아가기
         </Link>
       </div>
