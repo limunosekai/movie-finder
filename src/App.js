@@ -1,6 +1,5 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import './App.css';
 
 import Home from './containers/Home';
 import Movies from './components/movie/Movies';
