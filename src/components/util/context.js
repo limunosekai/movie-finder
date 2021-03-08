@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { API_KEY } from './config';
 
-export const API_ENDPOINT = `http://www.omdbapi.com/?apikey=${API_KEY}`;
+export const API_ENDPOINT = `https://www.omdbapi.com/?apikey=${API_KEY}`;
 const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
