@@ -1,6 +1,6 @@
 {
   "name": "movie-finder",
-  "homepage": "https://limunosekai.github.io/movie-finder/",
+  "homepage": "https://limunosekai.github.io/movie-finder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
