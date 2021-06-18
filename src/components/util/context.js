@@ -15,7 +15,7 @@ const AppProvider = ({ children }) => {
     try {
       const response = await fetch(url);
       const data = await response.json();
-
+      console.log(data);
       if (data.Response === 'True') {
         setMovies(data.Search);
         setError({ show: false, msg: '' });
