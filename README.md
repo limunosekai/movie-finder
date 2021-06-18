@@ -6,7 +6,7 @@
 
 ### ✨ Main Logic
 
-![1](./images/movie.png)
+![1](./images/movie.PNG)
 
 ![fetch](./images/fetch.PNG)
 
